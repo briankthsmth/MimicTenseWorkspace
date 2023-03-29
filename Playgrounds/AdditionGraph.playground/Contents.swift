@@ -6,7 +6,7 @@ NSSetUncaughtExceptionHandler { exception in
 }
 
 let inference = try await Inference<Float> {
-    InputDataSet(batchSize: 1) {
+    InferenceDataSet(batchSize: 1) {
         InputData { Tensor<Float>([1, 1, 1]) }
         InputData { Tensor<Float>([1, 1, 1]) }
         InputData { Tensor<Float>([1, 1, 1]) }
