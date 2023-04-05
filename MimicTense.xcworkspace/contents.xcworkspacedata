@@ -10,6 +10,9 @@
       <FileRef
          location = "group:Playgrounds/AdditionGraph.playground">
       </FileRef>
+      <FileRef
+         location = "group:Playgrounds/MLComputeSupportedDataTypes.playground">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:../MimicTense">
